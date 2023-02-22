@@ -1,0 +1,16 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: red;
+    width: 380px;
+    height: 380px;
+}
+
+.gameSpace {
+    display: block;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+
+}
